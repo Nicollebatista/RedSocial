@@ -1,0 +1,41 @@
+﻿.user-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #f8f9fa;
+}
+
+.card-footer {
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #f8f9fa;
+}
+
+.btn-group {
+    display: inline-block;
+}
+
+.main-content {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+}

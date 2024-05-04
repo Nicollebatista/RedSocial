@@ -1,0 +1,17 @@
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\bin\Debug\net7.0\RedSocial.Infrastructure.Persistence.deps.json
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\bin\Debug\net7.0\RedSocial.Infrastructure.Persistence.dll
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\bin\Debug\net7.0\RedSocial.Infrastructure.Persistence.pdb
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\bin\Debug\net7.0\RedSocial.Core.Application.dll
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\bin\Debug\net7.0\RedSocial.Core.Domain.dll
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\bin\Debug\net7.0\RedSocial.Core.Application.pdb
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\bin\Debug\net7.0\RedSocial.Core.Domain.pdb
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\obj\Debug\net7.0\RedSocial.Infrastructure.Persistence.csproj.AssemblyReference.cache
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\obj\Debug\net7.0\RedSocial.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\obj\Debug\net7.0\RedSocial.Infrastructure.Persistence.AssemblyInfoInputs.cache
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\obj\Debug\net7.0\RedSocial.Infrastructure.Persistence.AssemblyInfo.cs
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\obj\Debug\net7.0\RedSocial.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\obj\Debug\net7.0\RedSocial.Infrastructure.Persistence.csproj.CopyComplete
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\obj\Debug\net7.0\RedSocial.Infrastructure.Persistence.dll
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\obj\Debug\net7.0\refint\RedSocial.Infrastructure.Persistence.dll
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\obj\Debug\net7.0\RedSocial.Infrastructure.Persistence.pdb
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Infrastructure.Persistence\obj\Debug\net7.0\ref\RedSocial.Infrastructure.Persistence.dll

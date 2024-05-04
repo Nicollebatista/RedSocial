@@ -1,0 +1,96 @@
+﻿@using RedSocial.Core.Application.ViewModels.User;
+@model SaveUserViewModel
+@{
+    ViewData["Title"] = "Registro";
+}
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-dark text-light">
+                    <h4>Ediccion de nuevo usuario</h4>
+                </div>
+                <div class="card-body">
+
+                    @if (Model.HasError)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <p>@Model.Error</p>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+                    <form method="post" asp-controller="User" asp-action="Edit" asp-route-Email="@Model.Email" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label asp-for="File" class="form-label">Seleccione una Foto:</label>
+                           <input asp-for="File" class="form-control" />
+
+                            <span asp-validation-for="File" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="FirstName" class="form-label">Nombre: </label>
+                            <input asp-for="FirstName" class="form-control" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                         <div class="mb-3">
+                            <label asp-for="LastName" class="form-label">Apellido: </label>
+                            <input asp-for="LastName" class="form-control" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                         
+                        <div class="mb-3">
+                            <label asp-for="Username" class="form-label">Nombre de usuario: </label>
+                            <input asp-for="Username" class="form-control" />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Password" class="form-label">Contraseña: </label>
+                            <input asp-for="Password" class="form-control" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="ConfirmPassword" class="form-label">Confirmar contraseña: </label>
+                            <input asp-for="ConfirmPassword" class="form-control" />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PhoneNumber" class="form-label">Telefono: </label>
+                            <input asp-for="PhoneNumber" class="form-control" oninput="formatPhoneNumber(this)" placeholder="xxx-xxx-xxxx" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Email" class="form-label">Correo: </label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" asp-route-Email="@Model.Email"  class="btn btn-primary">Guardar</button>
+                        <a asp-controller="User" asp-action="Profile" asp-route-Email="@Model.Email" class="btn btn-warning">Volver atras</a>
+
+                    </form>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function formatPhoneNumber(input) {
+        var phoneNumber = input.value.replace(/\D/g, '');
+
+        var formattedPhoneNumber = phoneNumber.substring(0, 3) + '-' + phoneNumber.substring(3, 6) + '-' + phoneNumber.substring(6);
+
+        input.value = formattedPhoneNumber;
+    }
+</script>

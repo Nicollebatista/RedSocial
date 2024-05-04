@@ -1,0 +1,117 @@
+﻿/* StyleSheet.css */
+a {
+    color: #007bff; /* Cambiar el color del texto del hipervínculo a azul */
+    text-decoration: none; /* Quitar el subrayado predeterminado del hipervínculo */
+}
+
+    a:hover {
+        text-decoration: underline; /* Agregar subrayado al pasar el ratón sobre el hipervínculo */
+    }
+
+.card-body {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    
+    position: relative; /* Establecer una posición relativa para el card */
+    z-index: 1; /* Asegurar que el card esté en el mismo nivel que los otros elementos */
+}
+
+    .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+.card-header, .card-footer {
+    background-color: #363537;
+    color: white;
+    border-bottom: 1px solid #5c5b5e;
+    position: relative; /* Establecer una posición relativa para el card-header y card-footer */
+    z-index: 2; /* Asegurar que estén sobre el card */
+}
+h5{
+    color:black;
+}
+
+.crear {
+    color: #1f1f1f;
+}
+
+.post {
+    background-color: black;
+}
+
+.amigosBuscar {
+    text-align: right;
+    padding: 0%;
+}
+.comment-section {
+    background-color: #E7C6FF; /* Cambiar el color de fondo de la sección de comentarios */
+    padding: 15px; /* Aumentar el espacio interior */
+    border-radius: 10px; /* Aumentar la curvatura de los bordes */
+    margin-bottom: 20px; /* Aumentar el margen inferior */
+}
+
+.reply-item {
+    background-color: #FFD6FF; /* Cambiar el color de fondo de las respuestas */
+    padding: 15px; /* Aumentar el espacio interior */
+    border-radius: 8px; /* Aumentar la curvatura de los bordes */
+    margin-left: 30px; /* Aumentar el margen izquierdo */
+    margin-bottom: 10px; /* Aumentar el margen inferior */
+}
+
+.card-text {
+    color: #363537; /* Cambiar el color del texto de la descripción */
+}
+
+.card-descripcion {
+    padding: 15px; /* Agregar espacio alrededor del texto */
+    border-radius: 10px; /* Ajustar la curvatura de los bordes */
+    background-color: #ffffff; /* Cambiar el color de fondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregar una sombra suave */
+    font-size: 18px; /* Aumentar el tamaño del texto */
+    line-height: 1.5; /* Ajustar la altura de línea para mejorar la legibilidad */
+    margin-top: 10px; /* Ajustar el margen superior */
+}
+
+
+.friend-list {
+    overflow-y: auto;
+    max-height: calc(100vh - 100px);
+}
+
+.friend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #5c5b5e; /* Ajusta el color del borde según sea necesario */
+    border-radius: 10px; /* Ajusta la curvatura de los bordes */
+    margin-bottom: 5px;
+    
+}
+
+
+
+.friend-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.friend-details {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .friend-details li {
+        margin-bottom: 5px;
+    }
+
+.card-body.friend-list {
+    padding-left: 5px; /* Reduce el espacio de relleno izquierdo del card-body */
+padding-right: 5px;
+}
+
+.btn-group-sm>.btn, .btn-sm{
+    margin-left: 5px;
+}

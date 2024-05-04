@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RedSocial
+build_property.RootNamespace = RedSocial
+build_property.ProjectDir = C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/Comment/SaveComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxTYXZlQ29tbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/Friend/Buscar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kXEJ1c2Nhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/Friend/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/Friend/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/Post/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/Post/SavePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxTYXZlUG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/Replies/SaveReplies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwbGllc1xTYXZlUmVwbGllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/User/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/User/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/User/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/User/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/16Nic/OneDrive/Documentos/Universidad/5to Cuatrimestre/Programacion lll/RedSocial/RedSocial/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-j2ud5l3gbl

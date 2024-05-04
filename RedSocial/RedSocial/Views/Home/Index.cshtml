@@ -1,0 +1,120 @@
+﻿@using RedSocial.Core.Application.ViewModels.Post;
+@model List<PostViewModel>
+@{
+    ViewData["Title"] = "Mis Post";
+}
+
+<link rel="stylesheet" href="./css/StyleSheet.css" />
+
+<div class="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-end">
+                <a asp-controller="Post" asp-action="Create" class="btn btn-primary" style="background-color: #fc6cac; border-color: #fc6cac; color: white;">Crear un Post</a>
+            </div>
+        </div>
+
+        @if (Model == null || Model.Count == 0)
+        {
+            <div class="alert alert-info mt-3" role="alert">
+                No hay posts disponibles.
+            </div>
+        }
+        else
+        {
+            @foreach (var post in Model.OrderByDescending(p => p.Id))
+            {
+                <div class="card mt-3">
+                    <div class="card-header">
+                        <div class="d-flex align-items-center">
+                            <div class="user-avatar">
+                                <img src="@post.ImagenUrl" alt="Foto del usuario" class="img-fluid rounded-circle" />
+                            </div>
+                            <h5 class="ms-3 mb-0">@post.UsuarioNombre</h5>
+                            <div class="ms-auto">
+                                <div class="btn-group">
+                                    <a asp-controller="Post" asp-action="Edit" asp-route-id="@post.Id" class="btn btn-sm btn-outline-secondary me-2">Editar</a>
+                                    <a asp-controller="Post" asp-action="Delete" asp-route-id="@post.Id" class="btn btn-sm btn-outline-secondary">Borrar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body post">
+                        @if (!string.IsNullOrEmpty(post.Publicacion) && (post.Publicacion.Contains("youtube.com") || post.Publicacion.Contains("youtu.be")))
+                        {
+                            <div class="embed-responsive embed-responsive-16by9 mb-3">
+                                <iframe class="embed-responsive-item" src="@post.Publicacion" allowfullscreen></iframe>
+                            </div>
+                        }
+                        else if (!string.IsNullOrEmpty(post.Publicacion))
+                        {
+                            <img src="@post.Publicacion" alt="Publicación" class="img-fluid rounded" />
+                        }
+                        <div class="bg-light mb-3 card-descripcion">
+                            <p class="card-text mt-3">
+                                <strong>@post.UsuarioNombre:</strong> @post.Descripcion
+                            </p>
+                        </div>
+
+                        <!-- Comentarios -->
+                        @if (post.Comentarios != null && post.Comentarios.Any())
+                        {
+                            <div class="comment-section">
+                                <h5>Comentarios:</h5>
+                            <ul class="list-unstyled">
+                                @foreach (var comentario in post.Comentarios)
+                                {
+                                    <li class="mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="user-avatar me-3">
+                                                <img src="@comentario.ImagenUrl" alt="Foto del usuario" class="img-fluid rounded-circle" />
+                                            </div>
+                                            <div>
+                                                <p class="mb-0"><strong>@comentario.UsuarioNombre:</strong> @comentario.Contenido</p>
+                                                <small class="text-muted">Fecha: @comentario.FechaHoraComentario.ToString("dd/MM/yyyy HH:mm")</small>
+                                            </div>
+                                        </div>
+                                        <div class="mt-2">
+                                            <div class="btn-group">
+                                                <a asp-controller="Replies" asp-action="Create" asp-route-CommentId="@comentario.Id">Responder</a>
+                                            </div>
+                                        </div>
+                                        <!-- Respuestas -->
+                                        @if (comentario.Replies != null && comentario.Replies.Any())
+                                        {
+                                            <ul class="list-unstyled ms-5 mt-3">
+                                                @foreach (var reply in comentario.Replies)
+                                                {
+                                                    <li class="reply-item">
+                                                        
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="user-avatar me-3">
+                                                                <img src="@reply.ImagenUrl" alt="Foto del usuario" class="img-fluid rounded-circle" />
+                                                            </div>
+                                                            <div>
+                                                                <p class="mb-0"><strong>@reply.UsuarioNombre:</strong> @reply.Contenido</p>
+                                                                <small class="text-muted">Fecha: @reply.FechaHoraComentario.ToString("dd/MM/yyyy HH:mm")</small>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                }
+                                            </ul>
+                                        }
+                                    </li>
+                                }
+                            </ul>
+                            </div>
+                        }
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-between">
+                            <div class="btn-group">
+                                <a asp-controller="Comment" asp-action="Create" asp-route-PostId="@post.Id" class="btn btn-sm btn-outline-primary">Comentar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

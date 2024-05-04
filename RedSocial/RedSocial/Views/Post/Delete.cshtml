@@ -1,0 +1,30 @@
+﻿@using RedSocial.Core.Application.ViewModels.Post;
+@model SavePostViewModel
+@{
+    ViewData["Title"] = "Elimianr producto";
+}
+
+<div class="row">
+
+    <div class="col-6 offset-3" >
+        <div class="card">
+            <div class="card-header bg-danger text-light">
+                <h4>Esta seguro que desea eliminar el Post ?</h4>
+            </div>
+            <div class="card-body">
+
+                <form method="post" asp-controller="Post" asp-action="DeletePost">
+                
+                    <input type="hidden" asp-for="Id" />
+
+                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-warning">Cancelar</a>
+                
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+

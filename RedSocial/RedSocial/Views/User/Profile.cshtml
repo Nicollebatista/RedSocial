@@ -1,0 +1,39 @@
+﻿@using RedSocial.Core.Application.ViewModels.User;
+@model UserViewModel
+
+@{
+    ViewData["Title"] = "Mi Perfil";
+}
+
+
+<h2>Perfil de Usuario</h2>
+
+<div>
+    <img src="@Model.ImageUrl" alt="Foto de perfil" class="img-thumbnail" style="width: 200px; height: 200px;" />
+</div>
+
+<div>
+    <h4>Información Personal</h4>
+    <hr />
+    <dl class="row">
+
+        <dt class="col-sm-3">Nombre</dt>
+        <dd class="col-sm-9">@Model.FirstName @Model.LastName - @Model.Username</dd>
+
+        <dt class="col-sm-3">Correo Electrónico</dt>
+        <dd class="col-sm-9">@Model.Email</dd>
+
+
+    </dl>
+</div>
+
+<div>
+    <hr />
+    <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+            <a asp-controller="User" asp-action="Edit" asp-route-Email="@Model.Email" class="btn btn-sm btn-outline-info">Editar Perfil</a>
+        </div>
+    </div>
+
+</div>
+

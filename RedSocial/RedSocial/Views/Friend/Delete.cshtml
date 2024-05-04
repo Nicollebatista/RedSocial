@@ -1,0 +1,30 @@
+﻿@using RedSocial.Core.Application.ViewModels.Friend;
+@model FriendViewModel;
+@{
+    ViewData["Title"] = "Eliminar Amistad";
+}
+
+<div class="row">
+
+    <div class="col-6 offset-3" >
+        <div class="card">
+            <div class="card-header bg-danger text-light">
+                <h4>Esta seguro que desea eliminar esta Amistad?</h4>
+            </div>
+            <div class="card-body">
+
+                <form method="post" asp-controller="Friend" asp-action="DeletePost">
+                
+                    <input type="hidden" name="id" value="@Model.Id" />
+
+                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                    <a asp-controller="Friend" asp-action="Index"  class="btn btn-warning">Cancelar</a>
+                
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+

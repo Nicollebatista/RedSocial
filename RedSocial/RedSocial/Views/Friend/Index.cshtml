@@ -1,0 +1,154 @@
+﻿@using RedSocial.Core.Application.ViewModels.User;
+@using RedSocial.Core.Application.ViewModels.Post;
+@model (List<UserViewModel> Amigos, List<PostViewModel> Posts)
+
+@{
+    var postsOrdenados = Model.Posts.OrderByDescending(p => p.Id).ToList();
+}
+
+@{
+    ViewData["Title"] = "Friend";
+}
+
+<link rel="stylesheet" href="./css/StyleSheet.css" />
+
+<div class="container-fluid">
+    
+    <div class="row">
+        <div class="row mb-3 amigosBuscar justify-content-end">
+            <div class=" ">
+                <a asp-controller="Friend" asp-action="Buscar" style="background-color: #fc6cac; border-color: #fc6cac; color: white;" class="btn btn-outline-success"> Buscar Amigos!</a>
+
+            </div>
+        </div>
+        <!-- Columna izquierda para la lista de amigos -->
+        <div class="col-3">
+
+            <!-- Ajusta el tamaño de la columna a tu preferencia -->
+            <div class="card shadow-sm mt-3">
+                <div class="card-header bg-dark text-light">
+                    <h4>Amigos</h4>
+                </div>
+                <div class="card-body friend-list">
+                    @if (Model.Amigos != null && Model.Amigos.Any())
+                    {
+                        @foreach (var amigo in Model.Amigos)
+                        {
+                            <div class="friend-item " style="background-color: white; border-color: black; color: white;">
+                                <img src="@amigo.ImageUrl" alt="Avatar" class="friend-avatar" />
+                                <ul class="friend-details">
+                                    <li><small style="color:black;">@amigo.Username</small></li>
+                                </ul>
+                                <form asp-controller="Friend" asp-action="Delete" method="post">
+                                    <input type="hidden" name="id" value="@amigo.Id" />
+                                    <button type="submit" class="btn btn-sm btn-outline-danger">
+                                        <i class="fas fa-times"></i>
+                                        <span class="visually-hidden">Borrar</span> <!-- Texto oculto para accesibilidad -->
+                                    </button>
+
+                                </form>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <p>No tienes amigos.</p>
+                    }
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Columna derecha para los posts -->
+        <div class="col-9">
+            @foreach (var post in postsOrdenados)
+            {
+                <div class="card mt-3 ">
+                    <div class="card-header">
+                        <div class="d-flex align-items-center">
+                            <div class="user-avatar">
+                                <img src="@post.ImagenUrl" alt="Foto del usuario" class="img-fluid rounded-circle" />
+                            </div>
+                            <h5 class="ms-3 mb-0">@post.UsuarioNombre</h5>
+                           
+                        </div>
+                    </div>
+                    <div class="card-body post">
+                        @if (!string.IsNullOrEmpty(post.Publicacion) && (post.Publicacion.Contains("youtube.com") || post.Publicacion.Contains("youtu.be")))
+                        {
+                            <div class="embed-responsive embed-responsive-16by9 mb-3">
+                                <iframe class="embed-responsive-item" src="@post.Publicacion" allowfullscreen></iframe>
+                            </div>
+                        }
+                        else if (!string.IsNullOrEmpty(post.Publicacion))
+                        {
+                            <img src="@post.Publicacion" alt="Publicación" class="img-fluid rounded" />
+                        }
+                        <div class="bg-light mb-3 card-descripcion">
+                            <p class="card-text mt-3">
+                                <strong>@post.UsuarioNombre:</strong> @post.Descripcion
+                            </p>
+                        </div>
+
+                        <!-- Comentarios -->
+                        @if (post.Comentarios != null && post.Comentarios.Any())
+                        {
+                            <div class="comment-section">
+                                <h5>Comentarios:</h5>
+                                <ul class="list-unstyled">
+                                    @foreach (var comentario in post.Comentarios)
+                                    {
+                                        <li class="mb-3">
+                                            <div class="d-flex align-items-center">
+                                                <div class="user-avatar me-3">
+                                                    <img src="@comentario.ImagenUrl" alt="Foto del usuario" class="img-fluid rounded-circle" />
+                                                </div>
+                                                <div>
+                                                    <p class="mb-0"><strong>@comentario.UsuarioNombre:</strong> @comentario.Contenido</p>
+                                                    <small class="text-muted">Fecha: @comentario.FechaHoraComentario.ToString("dd/MM/yyyy HH:mm")</small>
+                                                </div>
+                                            </div>
+                                            <div class="mt-2">
+                                                <div class="btn-group">
+                                                    <a asp-controller="Replies" asp-action="Create" asp-route-CommentId="@comentario.Id">Responder</a>
+                                                </div>
+                                            </div>
+                                            <!-- Respuestas -->
+                                            @if (comentario.Replies != null && comentario.Replies.Any())
+                                            {
+                                                <ul class="list-unstyled ms-5 mt-3">
+                                                    @foreach (var reply in comentario.Replies)
+                                                    {
+                                                        <li class="reply-item">
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="user-avatar me-3">
+                                                                    <img src="@reply.ImagenUrl" alt="Foto del usuario" class="img-fluid rounded-circle" />
+                                                                </div>
+                                                                <div>
+                                                                    <p class="mb-0"><strong>@reply.UsuarioNombre:</strong> @reply.Contenido</p>
+                                                                    <small class="text-muted">Fecha: @reply.FechaHoraComentario.ToString("dd/MM/yyyy HH:mm")</small>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    }
+                                                </ul>
+                                            }
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                        }
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-between">
+                            <div class="btn-group">
+                                <a asp-controller="Comment" asp-action="Create" asp-route-PostId="@post.Id" class="btn btn-sm btn-outline-primary">Comentar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+    </div>
+</div>

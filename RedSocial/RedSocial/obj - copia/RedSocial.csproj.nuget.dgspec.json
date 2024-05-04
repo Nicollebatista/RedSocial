@@ -1,0 +1,499 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial\\RedSocial.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Application\\RedSocial.Core.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Application\\RedSocial.Core.Application.csproj",
+        "projectName": "RedSocial.Core.Application",
+        "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Application\\RedSocial.Core.Application.csproj",
+        "packagesPath": "C:\\Users\\16Nic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\16Nic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\RedSocial.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\RedSocial.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\RedSocial.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\RedSocial.Core.Domain.csproj",
+        "projectName": "RedSocial.Core.Domain",
+        "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\RedSocial.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\16Nic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\16Nic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Identity\\RedSocial.Infrastructure.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Identity\\RedSocial.Infrastructure.Identity.csproj",
+        "projectName": "RedSocial.Infrastructure.Identity",
+        "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Identity\\RedSocial.Infrastructure.Identity.csproj",
+        "packagesPath": "C:\\Users\\16Nic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\16Nic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Application\\RedSocial.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Application\\RedSocial.Core.Application.csproj"
+              },
+              "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\RedSocial.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\RedSocial.Core.Domain.csproj"
+              },
+              "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Shared\\RedSocial.Infrastructure.Shared.csproj": {
+                "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Shared\\RedSocial.Infrastructure.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Persistence\\RedSocial.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Persistence\\RedSocial.Infrastructure.Persistence.csproj",
+        "projectName": "RedSocial.Infrastructure.Persistence",
+        "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Persistence\\RedSocial.Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\16Nic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\16Nic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Application\\RedSocial.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Application\\RedSocial.Core.Application.csproj"
+              },
+              "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\RedSocial.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\RedSocial.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Shared\\RedSocial.Infrastructure.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Shared\\RedSocial.Infrastructure.Shared.csproj",
+        "projectName": "RedSocial.Infrastructure.Shared",
+        "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Shared\\RedSocial.Infrastructure.Shared.csproj",
+        "packagesPath": "C:\\Users\\16Nic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\16Nic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Application\\RedSocial.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Application\\RedSocial.Core.Application.csproj"
+              },
+              "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\RedSocial.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\RedSocial.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial\\RedSocial.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial\\RedSocial.csproj",
+        "projectName": "RedSocial",
+        "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial\\RedSocial.csproj",
+        "packagesPath": "C:\\Users\\16Nic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\16Nic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Application\\RedSocial.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Application\\RedSocial.Core.Application.csproj"
+              },
+              "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\RedSocial.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Core.Domain\\RedSocial.Core.Domain.csproj"
+              },
+              "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Identity\\RedSocial.Infrastructure.Identity.csproj": {
+                "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Identity\\RedSocial.Infrastructure.Identity.csproj"
+              },
+              "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Persistence\\RedSocial.Infrastructure.Persistence.csproj": {
+                "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Persistence\\RedSocial.Infrastructure.Persistence.csproj"
+              },
+              "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Shared\\RedSocial.Infrastructure.Shared.csproj": {
+                "projectPath": "C:\\Users\\16Nic\\OneDrive\\Documentos\\Universidad\\5to Cuatrimestre\\Programacion lll\\RedSocial\\RedSocial.Infrastructure.Shared\\RedSocial.Infrastructure.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

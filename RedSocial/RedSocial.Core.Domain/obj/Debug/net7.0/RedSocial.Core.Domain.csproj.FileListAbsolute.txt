@@ -1,0 +1,12 @@
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Core.Domain\bin\Debug\net7.0\RedSocial.Core.Domain.deps.json
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Core.Domain\bin\Debug\net7.0\RedSocial.Core.Domain.dll
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Core.Domain\bin\Debug\net7.0\RedSocial.Core.Domain.pdb
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Core.Domain\obj\Debug\net7.0\RedSocial.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Core.Domain\obj\Debug\net7.0\RedSocial.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Core.Domain\obj\Debug\net7.0\RedSocial.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Core.Domain\obj\Debug\net7.0\RedSocial.Core.Domain.AssemblyInfo.cs
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Core.Domain\obj\Debug\net7.0\RedSocial.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Core.Domain\obj\Debug\net7.0\RedSocial.Core.Domain.dll
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Core.Domain\obj\Debug\net7.0\refint\RedSocial.Core.Domain.dll
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Core.Domain\obj\Debug\net7.0\RedSocial.Core.Domain.pdb
+C:\Users\16Nic\OneDrive\Documentos\Universidad\5to Cuatrimestre\Programacion lll\RedSocial\RedSocial.Core.Domain\obj\Debug\net7.0\ref\RedSocial.Core.Domain.dll

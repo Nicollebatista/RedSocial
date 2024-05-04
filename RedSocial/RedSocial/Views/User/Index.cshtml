@@ -1,0 +1,50 @@
+﻿@using RedSocial.Core.Application.ViewModels.User
+@model LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="main-content">
+<div class="row mt-5 fondogeneral">
+    <div class="col-6 offset-3 ">
+        <div class="wrapper-login ">
+                @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                @if (Model.HasError)
+                {
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert"> 
+                        <p>@Model.Error</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+                
+                <form method="post" asp-controller="User" asp-action="Index">
+                    <h1>Login</h1>
+                    <div class="input-box">
+                        <input class="form-control" asp-for="UserName" placeholder="Username">
+                        <i class='bx bxs-user'></i>
+                    </div>
+                    <div class="input-box mt-1">
+                        <input class="form-control" asp-for="Password" placeholder="Password">
+                    </div>
+
+                <div class="button-group textoLogin">
+                    <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                    <a asp-controller="User" asp-action="ForgotPassword" class="btn btn-warning">Olvidé mi contraseña</a>
+                </div>
+                </form>
+            </div>
+    </div>
+</div>
+</div>
+
+<style>
+    body {
+        background-image: url('../images/fondologinRegist.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+
+</style>
