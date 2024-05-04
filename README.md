@@ -15,7 +15,7 @@ Este proyecto es una red social completa desarrollada desde cero utilizando ASP.
 
 1. Clona este repositorio en tu máquina local.
 2. Abre el proyecto en tu entorno de desarrollo preferido (Visual Studio, etc.).
-3. Configura tu base de datos local según las instrucciones en [Presentation](WebApp)>(RedSocial)>(appsettings.json).
+3. Configura tu base de datos local según las instrucciones en (Presentation)>(WebApp)>(RedSocial)>(appsettings.json).
 4. Ejecuta la aplicación y explora sus características.
 
 ## Contribución
